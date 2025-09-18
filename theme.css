@@ -38,7 +38,7 @@
 
 /* CARD */
 .cardContent:not(.defaultCardBackground) { border-radius: 0px; }
-.cardIndicators { right: 0; top: 0; }
+.cardIndicators { right: 0 !important; top: 0 !important; }
 .countIndicator, .playedIndicator { border-radius: 0 0 0 5px; border: none; font-size: 12px; padding: 5px; background: #101010 !important; }
 
 /* ! HOME TAB END */
