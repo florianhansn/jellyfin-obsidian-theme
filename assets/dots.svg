@@ -1,0 +1,22 @@
+<svg width="115" height="115" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="15" cy="15" r="1" fill="gray" />
+  <circle cx="45" cy="15" r="1" fill="gray" />
+  <circle cx="75" cy="15" r="1" fill="gray" />
+  
+  <circle cx="15" cy="45" r="1" fill="gray" />
+  <circle cx="45" cy="45" r="1" fill="gray" />
+  <circle cx="75" cy="45" r="1" fill="gray" />
+  <circle cx="100" cy="45" r="1" fill="gray" />
+  
+  <circle cx="15" cy="75" r="1" fill="gray" />
+  <circle cx="45" cy="75" r="1" fill="gray" />
+  <circle cx="75" cy="75" r="1" fill="gray" />
+  <circle cx="100" cy="75" r="1" fill="gray" />
+  
+  <circle cx="15" cy="100" r="1" fill="gray" />
+  <circle cx="45" cy="100" r="1" fill="gray" />
+  <circle cx="75" cy="100" r="1" fill="gray" />
+  <circle cx="100" cy="100" r="1" fill="gray" />
+  
+  <circle cx="100" cy="15" r="1" fill="lightgray" />
+</svg>
