@@ -1,0 +1,58 @@
+/* GLOBAL START  */
+
+/* DISPLAY NONE */
+.tomato-rating { display: none; }
+#castCollapsible { display: none; }
+#scenesCollapsible { display: none; }
+.itemTags { display: none; }
+
+/* COLOR CORRECTIONS */
+.starIcon { color: #21d07a !important; }
+.separator-icon { color: #fff !important; }
+.button-flat:hover { color: #5e5e5e; }
+@media (hover: hover) and (pointer: fine) {
+    .paper-icon-button-light:hover:not(:disabled) {
+        color: #fff;
+        background-color: rgb(94 94 94 / 60%);
+    }
+}
+.emby-tab-button:hover { color: #bfbfbf; }
+
+/* GLOBAL ENDS */
+
+
+
+/* ! HOME TAB START */
+
+/* BACKGROUND NAVBAR */
+.skinHeader-withBackground { background-color: transparent !important; }
+
+/* MEDIA BAR */
+.slide { font-size: 14px; }
+.genre { top: calc(50% + 3vh); }
+.plot-container { top: calc(50% + 5vh); }
+.plot-container .plot { font-size: 32px; }
+.play-button::before, .detail-button::before, .favorite-button::before, .favorite-button.favorited::before { font-size: 18px; }
+.button-container button.btnPlay.play-button { border-radius: 50%; }
+.button-container button.btnPlay.play-button .play-text, .button-container button.btnPlay.play-button .detailButton-content::after { display: none !important; content: none !important; }
+
+/* ! HOME TAB END */
+
+
+
+/* * MOVIE TAB START */
+
+/* FSK RATING */
+.itemMiscInfo .mediaInfoItem.mediaInfoOfficialRating { display: flex; align-items: center; background: rgb(255 255 255 / 0.8); color: #000; font-weight: 600; white-space: nowrap; padding: 0 0.5em; }
+
+/* EXTERNAL LINKS AS TAGS */
+.itemExternalLinks { font-size: 0 !important; }
+.itemExternalLinks a { font-size: 12px; background: #292929; padding: 4px 7px; }
+.itemExternalLinks a:not(:last-child) { margin-right: 5px; }
+
+/* Genres, Regisseure, Autoren, Studios */
+.itemDetailsGroup .detailsGroupItem .label { flex-basis: 0; margin-right: 0; color: #777; font-size: 14px; align-items: center; line-height: 20px; }
+.itemDetailsGroup .detailsGroupItem .label::after { content: ":"; margin-right: 0.25em; }
+.itemDetailsGroup .detailsGroupItem .content  { color: #fff !important; font-size: 14px; }
+
+/* * MOVIE TAB END */
